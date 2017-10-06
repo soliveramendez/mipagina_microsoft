@@ -1,0 +1,39 @@
+/*alinear los elementos de la pagina textos y imagenes*/
+body {
+    text-align: center;
+    font-family: "Shadows Into Light"
+}
+.cuadrado-color { /*css necesita saber que esto es una clase, llama al cuadrado color*/
+  background-color: orange; /*color ingles*/
+  background-color: #0040FF; /*color hexagecimal*/
+  /*background-color: rgb(86,102,161);/*color rgb*/
+  padding-bottom: 20px;/*dando espacio*/
+}
+/*cambiar el color de texto*/
+p{ /*se asocia por html*/
+color: orange;
+}
+/*cambiar tipografia*/
+h1{
+  font-family: "Gloria Hallelujah";
+}
+
+div class {
+  font-family: "Pacifico";
+  }
+/*
+ img{
+   width: 400px; /*ancho de la imagen*/
+   height: 200px; /*Alto de la imagen
+ }*/
+
+ .foto.grupo{
+   width: 400px; /*ancho de la imagen*/
+   height: 200px;
+ }
+
+ /*hacer el separador*/
+ .enlaces{
+   border-top: 1px solid black;/*ancho de linea-buscar types border css*/
+
+ }
